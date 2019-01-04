@@ -1,9 +1,10 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-
+import * as Butter from "buttercms";
 export const environment = {
-  production: false
+  production: false,
+  butterCMS: Butter("2f59c1ea2f1e098c4d9f17556cb446dd51c43d4d")
 };
 
 /*
